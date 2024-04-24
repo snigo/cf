@@ -44,7 +44,8 @@ users.toSorted(
 users.toSorted(
   cf()
     .select(user => user.age)
-    .desc(),
+    .desc()
+    .nullLast(),
 );
 // => [{ "name": "Bob", "age": 49 }, { "name": null, "age": 25 }, { "name": "Diego", "age": 14 }, { "name": "Alice", "age": null }]
 ```
