@@ -1,2 +1,3 @@
-# cf
-Compare function
+# @gigwork/cf
+
+Compare functions
