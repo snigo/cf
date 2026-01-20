@@ -34,7 +34,7 @@ importers:
         version: 3.3.3
       rimraf:
         specifier: ^6.0.0
-        version: 6.0.1
+        version: 6.1.2
       tslib:
         specifier: ^2.6.2
         version: 2.8.0
@@ -463,6 +463,14 @@ packages:
   '@humanwhocodes/retry@0.3.1':
     resolution: {integrity: sha512-JBxkERygn7Bv/GbN5Rv8Ul6LVknS+5Bp6RgDC/O8gEBU/yeH5Ui5C/OlWrTb6qct7LjjfT6Re2NxB0ln0yYybA==}
     engines: {node: '>=18.18'}
+
+  '@isaacs/balanced-match@4.0.1':
+    resolution: {integrity: sha512-yzMTt9lEb8Gv7zRioUilSglI0c0smZ9k5D65677DLWLtWJaXIS3CqcGyUFByYKlnUj6TkjLVs54fBl6+TiGQDQ==}
+    engines: {node: 20 || >=22}
+
+  '@isaacs/brace-expansion@5.0.0':
+    resolution: {integrity: sha512-ZT55BDLV0yv0RBm2czMiZ+SqCGO7AvmOM3G/w2xhVPH+te0aKgFjmBvGlL1dH+ql2tgGO3MVrbb3jCKyvpgnxA==}
+    engines: {node: 20 || >=22}
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -1088,6 +1096,10 @@ packages:
     engines: {node: 20 || >=22}
     hasBin: true
 
+  glob@13.0.0:
+    resolution: {integrity: sha512-tvZgpqk6fz4BaNZ66ZsRaZnbHvP/jG3uKJvAZOwEVUL4RTA5nJeeLYfyN9/VA8NX/V3IBG+hkeuGpKjvELkVhA==}
+    engines: {node: 20 || >=22}
+
   globals@14.0.0:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
     engines: {node: '>=18'}
@@ -1258,6 +1270,10 @@ packages:
     resolution: {integrity: sha512-CgeuL5uom6j/ZVrg7G/+1IXqRY8JXX4Hghfy5YE0EhoYQWvndP1kufu58cmZLNIDKnRhZrXfdS9urVWx98AipQ==}
     engines: {node: 20 || >=22}
 
+  lru-cache@11.2.4:
+    resolution: {integrity: sha512-B5Y16Jr9LB9dHVkh6ZevG+vAbOsNOYCX+sXvFWFu7B3Iz5mijW3zdbMyhsh8ANd2mSWBYdJgnqi+mL7/LrOPYg==}
+    engines: {node: 20 || >=22}
+
   lru-cache@4.1.5:
     resolution: {integrity: sha512-sWZlbEP2OsHNkXrMl5GYk/jKk70MBng6UU4YI/qGDYbgf6YbP4EvmqISbXCoJiRKs+1bSpFHVgQxvJ17F2li5g==}
 
@@ -1285,6 +1301,10 @@ packages:
 
   minimatch@10.0.1:
     resolution: {integrity: sha512-ethXTt3SGGR+95gudmqJ1eNhRO7eGEGIgYA9vnPatK4/etz2MEVDno5GMCibdMTuBMyElzIlgxMna3K94XDIDQ==}
+    engines: {node: 20 || >=22}
+
+  minimatch@10.1.1:
+    resolution: {integrity: sha512-enIvLvRAFZYXJzkCYG5RKmPfrFArdLv+R+lbQ53BmIMLIry74bjKzX6iHAm8WYamJkhSSEabrWN5D97XnKObjQ==}
     engines: {node: 20 || >=22}
 
   minimatch@3.1.2:
@@ -1393,6 +1413,10 @@ packages:
 
   path-scurry@2.0.0:
     resolution: {integrity: sha512-ypGJsmGtdXUOeM5u93TyeIEfEhM6s+ljAhrk5vAvSx8uyY/02OvrZnA0YNGUrPXfpJMgI1ODd3nwz8Npx4O4cg==}
+    engines: {node: 20 || >=22}
+
+  path-scurry@2.0.1:
+    resolution: {integrity: sha512-oWyT4gICAu+kaA7QWk/jvCHWarMKNs6pXOGWKDTr7cw4IGcUbW+PeTfbaQiLGheFRpjo6O9J0PmyMfQPjH71oA==}
     engines: {node: 20 || >=22}
 
   path-type@4.0.0:
@@ -1504,8 +1528,8 @@ packages:
   rfdc@1.4.1:
     resolution: {integrity: sha512-q1b3N5QkRUWUl7iyylaaj3kOpIT0N2i9MqIEQXP73GVsN9cw3fdx8X63cEmWhJGi2PPCF23Ijp7ktmd39rawIA==}
 
-  rimraf@6.0.1:
-    resolution: {integrity: sha512-9dkvaxAsk/xNXSJzMgFqqMCuFgt2+KsOFek3TMLfo8NCPfWpBmqwyNn5Y+NX56QUYfCtsyhF3ayiboEoUmJk/A==}
+  rimraf@6.1.2:
+    resolution: {integrity: sha512-cFCkPslJv7BAXJsYlK1dZsbP8/ZNLkCAQ0bi1hf5EKX2QHegmDFEFA6QhuYJlk7UDdc+02JjO80YSOrWPpw06g==}
     engines: {node: 20 || >=22}
     hasBin: true
 
@@ -2106,6 +2130,12 @@ snapshots:
   '@humanwhocodes/module-importer@1.0.1': {}
 
   '@humanwhocodes/retry@0.3.1': {}
+
+  '@isaacs/balanced-match@4.0.1': {}
+
+  '@isaacs/brace-expansion@5.0.0':
+    dependencies:
+      '@isaacs/balanced-match': 4.0.1
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -2760,6 +2790,12 @@ snapshots:
       package-json-from-dist: 1.0.1
       path-scurry: 2.0.0
 
+  glob@13.0.0:
+    dependencies:
+      minimatch: 10.1.1
+      minipass: 7.1.2
+      path-scurry: 2.0.1
+
   globals@14.0.0: {}
 
   globals@15.11.0: {}
@@ -2912,6 +2948,8 @@ snapshots:
 
   lru-cache@11.0.1: {}
 
+  lru-cache@11.2.4: {}
+
   lru-cache@4.1.5:
     dependencies:
       pseudomap: 1.0.2
@@ -2937,6 +2975,10 @@ snapshots:
   minimatch@10.0.1:
     dependencies:
       brace-expansion: 2.0.1
+
+  minimatch@10.1.1:
+    dependencies:
+      '@isaacs/brace-expansion': 5.0.0
 
   minimatch@3.1.2:
     dependencies:
@@ -3037,6 +3079,11 @@ snapshots:
       lru-cache: 11.0.1
       minipass: 7.1.2
 
+  path-scurry@2.0.1:
+    dependencies:
+      lru-cache: 11.2.4
+      minipass: 7.1.2
+
   path-type@4.0.0: {}
 
   pathe@2.0.3: {}
@@ -3104,9 +3151,9 @@ snapshots:
 
   rfdc@1.4.1: {}
 
-  rimraf@6.0.1:
+  rimraf@6.1.2:
     dependencies:
-      glob: 11.0.0
+      glob: 13.0.0
       package-json-from-dist: 1.0.1
 
   rollup@4.55.1:
